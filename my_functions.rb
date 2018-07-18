@@ -5,3 +5,16 @@ end
 def sum_array(numbers)
   return numbers.sum
 end
+
+def find_item(array, item)
+  for houses in array
+   if houses == item
+     return true
+    end
+  end
+      for houses in array
+        if houses != item
+       return false
+    end
+  end
+end
